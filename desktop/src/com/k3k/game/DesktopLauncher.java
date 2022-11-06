@@ -12,7 +12,6 @@ public class DesktopLauncher {
 		config.setWindowedMode(FlappyDemo.WIDTH, FlappyDemo.HEIGHT);
 
 		//config.setForegroundFPS(60);
-		//config.setTitle("FlappyDemo");
 		new Lwjgl3Application(new FlappyDemo(), config);
 	}
 }
