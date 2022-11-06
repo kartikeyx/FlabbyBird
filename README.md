@@ -1,2 +1,2 @@
-# FlappyDemo
+# FlappyBird Game
  
