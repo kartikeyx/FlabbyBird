@@ -30,4 +30,12 @@ public class MenuState extends State{
         sb.draw(playBtn, (FlappyDemo.WIDTH/2) - (playBtn.getWidth()/2), FlappyDemo.HEIGHT/2);
         sb.end();
     }
+
+    @Override
+    public void dispose() {
+        background.dispose();
+        playBtn.dispose();
+    }
+
+
 }

@@ -19,4 +19,5 @@ public abstract class State {
     protected abstract void handleInput();
     public abstract void update(float dt); //delta time
     public abstract void render(SpriteBatch sb); //Container to everything we want to show on the screen
+    public abstract void dispose();
 }
