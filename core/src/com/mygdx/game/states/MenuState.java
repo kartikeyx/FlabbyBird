@@ -3,7 +3,7 @@ package com.mygdx.game.states;
 import com.badlogic.gdx.Gdx;
 import com.badlogic.gdx.graphics.Texture;
 import com.badlogic.gdx.graphics.g2d.SpriteBatch;
-import com.mygdx.game.MyGdxGame;
+import com.mygdx.game.FlabbyBird;
 
 public class MenuState extends State{
     private Texture background;
@@ -30,8 +30,8 @@ public class MenuState extends State{
     @Override
     public void render(SpriteBatch sb) {
         sb.begin();
-        sb.draw(background, 0, 0, MyGdxGame.WIDTH, MyGdxGame.HEIGHT);
-        sb.draw(playBtn, (MyGdxGame.WIDTH/2) - (playBtn.getWidth()/2), MyGdxGame.HEIGHT/2);
+        sb.draw(background, 0, 0, FlabbyBird.WIDTH, FlabbyBird.HEIGHT);
+        sb.draw(playBtn, (FlabbyBird.WIDTH/2) - (playBtn.getWidth()/2), FlabbyBird.HEIGHT/2);
         sb.end();
     }
 
